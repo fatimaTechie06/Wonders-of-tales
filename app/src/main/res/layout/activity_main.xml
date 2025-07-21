@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#CAF3F8">
+
+    <ImageView
+        android:id="@+id/imageIcon"
+        android:src="@drawable/image1"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wonders of Tales"
+        android:textSize="29sp"
+        android:textStyle="italic"
+        android:padding="25dp"
+        android:textColor="#673AB7" />
+
+
+    <Button
+        android:id="@+id/exploreStory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Explore Stories"
+        />
+
+</LinearLayout>
